@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const options = {
         method: 'GET',
         headers: {
-          'X-RapidAPI-Key': 'd9dbf2e301msh5d6dedad3a3413ap177675jsne5af4b8838b3',
+          'X-RapidAPI-Key': 'Your API-KEY',
           'X-RapidAPI-Host': 'article-data-extraction-and-summarization.p.rapidapi.com'
         }
       };
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
         method: 'POST',
         headers: {
           'content-type': 'application/json',
-          'X-RapidAPI-Key': 'd9dbf2e301msh5d6dedad3a3413ap177675jsne5af4b8838b3',
+          'X-RapidAPI-Key': 'Your API-KEY',
           'X-RapidAPI-Host': 'chatgpt-42.p.rapidapi.com'
         },
         body: JSON.stringify({
